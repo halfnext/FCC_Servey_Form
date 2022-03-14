@@ -5,12 +5,17 @@ body {
     width: 100%;
     align-self: center;
 }
+main {
+    width: fit-content;
+    align-self: center;
+    justify-content: center;
+    width: 50vh;
+}
 div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    width: 100%;
 }
 #survey-form {
     display: flex;
