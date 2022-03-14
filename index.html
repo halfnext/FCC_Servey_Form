@@ -7,8 +7,8 @@
 </head>
 
 <body>
-    <h1 id="title">Title</h1>
-    <p id="description">Description</p>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Take a minute to answer few questions</p>
     <div>
         <form id="survey-form">
             <label id="name-label" for="name">Your Name</label>
@@ -25,14 +25,18 @@
                 <option>Dog.</option>
                 <option>Cat.</option>
             </select>
-            <label for="pref">Select your type</label>
-            <input type="radio" name="pref" value="male" checked>Male
-            <input type="radio" name="pref" value="female">Female
-            <label>Select your statuses</label>
-            <input type="checkbox" name="opt1" value="single">Single
-            <input type="checkbox" name="opt2" value="couple">In Couple
-            <input type="checkbox" name="opt3" value="swing">Swing
-            <label>Add somthing</label>
+            <div>
+                <p>Select your type</p>
+                <label><input type="radio" name="pref" value="male" class="radio" checked>Male</label>
+                <label><input type="radio" name="pref" value="female" class="radio">Female</label>
+            </div>
+            <div>
+                <p>Select your statuses</p>
+                <label><input type="checkbox" name="opt1" value="single" class="check">Single</label>
+                <label><input type="checkbox" name="opt2" value="couple" class="check">In Couple</label>
+                <label><input type="checkbox" name="opt3" value="swing" class="check">Swing</label>
+            </div>
+            <p>Add somthing</p>
             <textarea placeholder="Povide few words about yourself"></textarea>
             <button id="submit">Submit</button>
         </form>
