@@ -17,7 +17,7 @@
             <input type="email" name="email" id="email" placeholder="Provide your Email" required>
             <label id="number-label" for="age">Age</label>
             <input type="number" name="age" id="number" placeholder="provide ypur age" min="0" max="99">
-            <label>Chose your sex</label>
+            <label id="drop-label">Chose your sex</label>
             <select id="dropdown">
                 <option>Mr.</option>
                 <option>Mrs.</option>
@@ -25,18 +25,18 @@
                 <option>Dog.</option>
                 <option>Cat.</option>
             </select>
-            <div>
+            <div class="check-radio">
                 <p>Select your type</p>
-                <label><input type="radio" name="pref" value="male" class="radio" checked>Male</label>
-                <label><input type="radio" name="pref" value="female" class="radio">Female</label>
+                <label><input type="radio" name="pref" value="male" class="radio" checked>Left</label>
+                <label><input type="radio" name="pref" value="female" class="radio">Right</label>
             </div>
-            <div>
+            <div class="check-radio">
                 <p>Select your statuses</p>
-                <label><input type="checkbox" name="opt1" value="single" class="check">Single</label>
-                <label><input type="checkbox" name="opt2" value="couple" class="check">In Couple</label>
-                <label><input type="checkbox" name="opt3" value="swing" class="check">Swing</label>
+                <label><input type="checkbox" name="opt1" value="single" class="check">Top</label>
+                <label><input type="checkbox" name="opt2" value="couple" class="check">Bottom</label>
+                <label><input type="checkbox" name="opt3" value="swing" class="check">Center</label>
             </div>
-            <p>Add somthing</p>
+            <p id="comment">Add somthing</p>
             <textarea placeholder="Povide few words about yourself"></textarea>
             <button id="submit">Submit</button>
         </form>

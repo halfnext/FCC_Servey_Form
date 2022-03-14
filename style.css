@@ -1,15 +1,26 @@
+html {
+    height: 100%;
+}
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 95%;
+    margin: 0px;
+    padding: 0px;
     align-self: center;
+    background-image: url('backgr.jpg');
+    background-size: cover;
+    color: whitesmoke;
 }
 main {
-    width: fit-content;
+    display: flex;
     align-self: center;
     justify-content: center;
-    width: 50vh;
+    width: 60%;
+    background-color: rgba(100, 194, 171, 0.7);
+    border-radius: 12%;
+    height: 100%;
 }
 div {
     display: flex;
@@ -22,12 +33,13 @@ div {
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    padding: 2rem;
+    padding: 3em;
+    width: 80%;
 }
 p {
     justify-content: center;
     align-self: center;
-    margin: 1rem;
+    font-size: 1.2em;
 }
 h1 {
     justify-content: center;
@@ -38,8 +50,40 @@ h1 {
     display: inline;
     justify-content: center;
     align-self: center;
+    transform: scale(1.2);
 }
 #submit {
-    padding: 0.5rem;
+    padding: 3em;
     margin: 1rem;
+    width: max-content;
+    align-self: center;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    font-size: 1em;
+}
+#name-label,
+#email-label,
+#number-label,
+#drop-label {
+    padding: 0.5em 0em;
+    font-size: 1.15em;
+}
+#comment {
+    align-self: flex-start;
+}
+.check-radio {
+    align-self: flex-start;
+    font: 1.15em sans-serif;
+}
+textarea {
+    height: 8em;
+}
+#name,
+#email,
+#number,
+#dropdown {
+    height: 2em;
+    font-size: inherit;
 }
