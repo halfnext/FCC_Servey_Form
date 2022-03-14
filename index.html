@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FCC: Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Title</h1>
+    <p id="description">Description</p>
+    <div>
+        <form id="survey-form">
+            <label id="name-label" for="name">Your Name</label>
+            <input type="" name="name" id="name" placeholder="Enter your name" required>
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Provide your Email" required>
+            <label id="number-label" for="age">Age</label>
+            <input type="number" name="age" id="number" placeholder="provide ypur age" min="0" max="99">
+            <label>Chose your sex</label>
+            <select id="dropdown">
+                <option>Mr.</option>
+                <option>Mrs.</option>
+                <option>It.</option>
+                <option>Dog.</option>
+                <option>Cat.</option>
+            </select>
+            <label>Select your type</label>
+            <input type="radio" name="pref" value="male" checked>Male
+            <input type="radio" name="pref" value="female">Female
+            <label>Select your statuses</label>
+            <input type="checkbox" name="opt1" value="single">Single
+            <input type="checkbox" name="opt2" value="couple">In Couple
+            <input type="checkbox" name="opt3" value="swing">Swing
+            <label>Add somthing</label>
+            <textarea placeholder="Povide few words about yourself"></textarea>
+            <button id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
